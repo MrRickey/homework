@@ -13,19 +13,21 @@ p {
 
 
 .circle {
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    width: 6vw;
+    height: 16vh;
     border-radius: 50%;
     background: red;
-    position: fixed;
+    position: absolute;
     z-index: 1;
-    top: 820px;
-    left: 1100px;
+    top: -5vh;
+    left: 10vw;
+    right: 34vw;
 }
 
 .block {
     min-height: 100px;
-    max-width: 50vw;
     border-radius: 10px;
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.842);
     background: linear-gradient(120deg, #c2c1c5, #e3e6e7);
