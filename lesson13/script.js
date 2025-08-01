@@ -59,7 +59,7 @@ const profiles = [
 let notAdmin = 0;
 
 for (let i = 0; i < profiles.length; i++) {
-    if (profiles[i].isAdmin){
+    if (!profiles[i].isAdmin){
         notAdmin++
     }
 }
